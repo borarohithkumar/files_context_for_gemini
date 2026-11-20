@@ -1,144 +1,89 @@
-# DSA Journey & Builder’s Log — Publication Ledger
+# DSA Journey & Builder's Log — Publication Ledger
 
-**Reconciled:** 18 November 2026. The user explicitly confirms that DSA Journey **#1–#22 are all published** and Builder’s Log **#1 is published**. Exact dates/URLs remain blank unless supplied.
+**Updated:** 19 November 2026. User confirms DSA Journey #1–#24 published; Builder's Log #1 published. DSA #25 LC695 is ready as a draft, not yet confirmed live.
 
-## DSA Journey #1–#22 — published
+## DSA Journey — publication ledger
 
-| # | Post topic | Pattern | LinkedIn status | Evidence / notes |
-|---:|---|---|---|---|
-| 1 | LC146 — LRU Cache | HashMap + doubly linked list | **Published** | Historical post log; exact date/URL not retained |
-| 2 | LC56 — Merge Intervals | Sorting + intervals | **Published** | Historical post log; exact date/URL not retained |
-| 3 | Maximum Subjects Passed — custom question | Greedy + sorting + budget allocation | **Published** | Custom repository exercise; connection to LC1833 is pattern-only |
-| 4 | LC435 — Non-overlapping Intervals | Greedy interval scheduling | **Published** | Historical post log; exact date/URL not retained |
-| 5 | LC57 — Insert Interval | Interval insertion/merge | **Published** | Historical post log; exact date/URL not retained |
-| 6 | LC452 — Minimum Number of Arrows to Burst Balloons | Greedy interval coverage | **Published** | Historical post log; exact date/URL not retained |
-| 7 | LC26 — Remove Duplicates from Sorted Array | In-place two pointers | **Published** | Historical post log; exact date/URL not retained |
-| 8 | LC88 — Merge Sorted Array | Backward three-pointer merge | **Published** | Historical post log |
-| 9 | LC53 — Maximum Subarray | Kadane’s algorithm | **Published** | Historical post log |
-| 10 | LC121 — Best Time to Buy and Sell Stock | One-pass running minimum | **Published** | Historical post log; exact date/URL not retained |
-| 11 | LC1299 — Replace Elements with Greatest Element on Right Side | Right-to-left running maximum | **Published** | Historical post log; exact date/URL not retained |
-| 12 | LC238 — Product of Array Except Self | Prefix/suffix products | **Published** | Historical post log; exact date/URL not retained |
-| 13 | LC242 — Valid Anagram | Character frequency | **Published** | Historical post log; exact date/URL not retained |
-| 14 | LC49 — Group Anagrams | Hashing / canonical key | **Published** | Historical post log; exact date/URL not retained |
-| 15 | LC560 — Subarray Sum Equals K | Prefix sum + frequency map | **Published** | User-confirmed 8 Nov 2026; URL not supplied |
-| 16 | LC35 — Search Insert Position | Binary search / lower bound | **Published** | User now confirms all posts through #22 are live; date/URL not supplied |
-| 17 | LC33 — Search in Rotated Sorted Array | Modified binary search | **Published** | User now confirms all posts through #22 are live; LC33 is in historical profile bucket but was revisited in this campaign |
-| 18 | LC153 — Find Minimum in Rotated Sorted Array | Modified binary search | **Published** | User now confirms all posts through #22 are live; date/URL not supplied |
-| 19 | LC875 — Koko Eating Bananas | Binary search on answer | **Published** | User now confirms all posts through #22 are live; date/URL not supplied |
-| 20 | LC2187 + ICSL/HirePro desk-processing exercise | Binary search on feasible time; heap alternative in custom exercise | **Published** | User-confirmed live 18 Nov 2026; custom exercise is Python/icsl_1.py; separate statements |
-| 21 | LC74 — Search a 2D Matrix | Binary search on virtual flattened indices | **Published** | User now confirms all posts through #22 are live; date/URL not supplied |
-| 22 | LC1648 + Infosys Food Stamps sample | Min-heap + binary search on diminishing-value threshold | **Published** | User now confirms all posts through #22 are live; custom exercise is Python/infosys_easy.py; related, not identical |
-
-## DSA Journey #23 — LC4 draft ready
-
-User supplied two implementations for LC4 — Median of Two Sorted Arrays:
-- Merge simulation: advances two pointers for the first floor((m+n)/2)+1 elements; O(m+n) time, O(1) auxiliary space.
-- Binary-search partition: searches the partition in the shorter array and checks cross-boundary ordering; O(log(min(m,n))) time, O(1) auxiliary space.
-- Accepted/submission status was not explicitly stated.
-- LinkedIn status: draft ready, not yet confirmed posted.
-
-## Next deliberate DSA post sequence
-
-| Proposed # | Topic | Category purpose | Status |
+| # | Topic | Pattern / angle | Status |
 |---:|---|---|---|
-| **#23** | **LC4 — Median of Two Sorted Arrays** | Finish/capstone the Binary Search block (partition-based binary search) | Draft ready; user supplied merge + partition approaches |
-| #24 | LC200 — Number of Islands | Start the Grid / Graph DFS block; this is in the current-known 69 list | Candidate; user approach needed |
-| #25 | LC79 — Word Search | Grid DFS + path-specific backtracking; first-time completion after LC200 | Candidate only; complete first, then draft |
+| 1 | LC146 — LRU Cache | Hash map + doubly linked list | **Published** |
+| 2 | LC56 — Merge Intervals | Sorting + interval merging | **Published** |
+| 3 | Maximum Subjects Passed — custom question | Greedy + sorting + budget allocation | **Published** |
+| 4 | LC435 — Non-overlapping Intervals | Greedy interval scheduling | **Published** |
+| 5 | LC57 — Insert Interval | Interval insertion / merge | **Published** |
+| 6 | LC452 — Minimum Number of Arrows to Burst Balloons | Greedy interval coverage | **Published** |
+| 7 | LC26 — Remove Duplicates from Sorted Array | In-place two pointers | **Published** |
+| 8 | LC88 — Merge Sorted Array | Backward three-pointer merge | **Published** |
+| 9 | LC53 — Maximum Subarray | Kadane’s algorithm | **Published** |
+| 10 | LC121 — Best Time to Buy and Sell Stock | One-pass running minimum | **Published** |
+| 11 | LC1299 — Replace Elements with Greatest Element on Right Side | Right-to-left running maximum | **Published** |
+| 12 | LC238 — Product of Array Except Self | Prefix / suffix products | **Published** |
+| 13 | LC242 — Valid Anagram | Character frequency | **Published** |
+| 14 | LC49 — Group Anagrams | Hashing / canonical key | **Published** |
+| 15 | LC560 — Subarray Sum Equals K | Prefix sum + frequency map | **Published** |
+| 16 | LC35 — Search Insert Position | Binary search / lower bound | **Published** |
+| 17 | LC33 — Search in Rotated Sorted Array | Modified binary search | **Published** |
+| 18 | LC153 — Find Minimum in Rotated Sorted Array | Modified binary search | **Published** |
+| 19 | LC875 — Koko Eating Bananas | Binary search on answer | **Published** |
+| 20 | LC2187 + ICSL/HirePro desk-processing exercise | Binary search on feasible time; heap alternative in custom exercise | **Published** |
+| 21 | LC74 — Search a 2D Matrix | Binary search on virtual flattened indices | **Published** |
+| 22 | LC1648 + Infosys Food Stamps sample | Min-heap + binary search on diminishing-value threshold | **Published** |
+| 23 | LC4 — Median of Two Sorted Arrays | Partial two-pointer merge + binary-search partition | **Published** |
+| 24 | LC200 — Number of Islands | Recursive four-direction grid DFS; in-place marking | **Published** |
+| 25 | LC695 — Max Area of Island | Iterative BFS with deque; in-place marking and area aggregation | **Draft ready** |
 
-**Why LC79 is not #23:** the binary-search series has been the active post block through #22. LC4 is still in the current-known list and is a natural capstone. Only after #23 do we intentionally transition into grid/DFS work. LC200 is already completed according to the supplied 69-list, while LC79 is not among the 140 solved IDs.
+## DSA Journey #25 — LC695 LinkedIn draft
 
-## DSA post candidates after the Grid / DFS block
+**𝐃𝐒𝐀 𝐉𝐨𝐮𝐫𝐧𝐞𝐲 #𝟐𝟓 — 𝐌𝐚𝐱 𝐀𝐫𝐞𝐚 𝐨𝐟 𝐈𝐬𝐥𝐚𝐧𝐝 (𝐋𝐞𝐞𝐭𝐂𝐨𝐝𝐞 𝟔𝟗𝟓)**
 
-- `Python/infosys_medium.py` — original Infosys coding exercise; code appears to maximise a contiguous subarray sum by up to `k` swaps with outside values using heaps. The original full prompt/constraints are not retained. Candidate post only after user re-confirms the statement and the algorithm is tested.
-- `Python/infosys_hard.py` — original Infosys practice exercise; current code finds the smallest absolute difference among distinct values sharing parity by sorting unique even and odd groups. The original prompt is not retained. Candidate post only after prompt/constraints are confirmed.
-- `Python/tcs1.py`, `tcs2.py`, `tcs11.py`, `tcs12.py` — TCS practice sets; inspect and inventory problem-by-problem before assigning post numbers.
-- The custom problems already featured are #3 Maximum Subjects Passed, #20 ICSL/HirePro, and #22 Infosys Food Stamps. Do not map an original question to a LeetCode ID unless the statement and constraints really match.
+Continuing with grid traversal, today’s problem builds on the connected-component idea from Number of Islands — but this time, instead of counting islands, the goal is to find the area of the largest one.
+
+**𝐌𝐲 𝐚𝐩𝐩𝐫𝐨𝐚𝐜𝐡: 𝐁𝐫𝐞𝐚𝐝𝐭𝐡-𝐅𝐢𝐫𝐬𝐭 𝐒𝐞𝐚𝐫𝐜𝐡 (𝐁𝐅𝐒)**
+
+🔹 Traverse the grid using nested loops and look for an unvisited land cell (`1`).
+🔹 Whenever land is found, mark it as water (`0`) immediately, initialize its island area to `1`, and add its coordinates to a queue.
+🔹 Use a `deque` to process cells in FIFO order and explore their four neighbouring directions — up, down, left and right.
+🔹 Mark each discovered land cell as visited when adding it to the queue, and increase the current island’s area.
+🔹 Once the queue is empty, update the maximum area and continue scanning the grid.
+
+**𝐓𝐡𝐞 𝐤𝐞𝐲 𝐨𝐛𝐬𝐞𝐫𝐯𝐚𝐭𝐢𝐨𝐧:** Marking cells when they are enqueued ensures that each land cell is added to the queue only once. Each BFS traversal therefore explores one complete island without needing a separate `visited` matrix.
+
+**𝐂𝐨𝐦𝐩𝐥𝐞𝐱𝐢𝐭𝐲 𝐀𝐧𝐚𝐥𝐲𝐬𝐢𝐬:**
+- Time Complexity: O(R × C)
+- Auxiliary Space Complexity: O(R × C) in the worst case for the queue
+
+**𝐊𝐞𝐲 𝐭𝐚𝐤𝐞𝐚𝐰𝐚𝐲:** DFS and BFS are two ways to explore connected components. After using DFS to count islands, BFS lets us measure the size of each component and keep track of the largest one.
+
+#Python #DSA #LeetCode #BFS #GraphTraversal #ProblemSolving #LearningInPublic
+
+## Next deliberate sequence
+
+- **DSA #25:** LC695 — Max Area of Island (draft ready; publish after you attach your code / Accepted screenshot).
+- **DSA #26 candidate:** LC79 — Word Search. It is absent from the 141 tracked IDs; complete it first, then share your actual approach.
+- Then refresh historical graph problems LC133 and LC417 before moving to the next category block.
+
+## Original assessment exercises — separate queue
+
+- Already published: #3 Maximum Subjects Passed (`Python/maxsubspass.py`), #20 ICSL/HirePro (`Python/icsl_1.py`), #22 Infosys Food Stamps (`Python/infosys_easy.py`). These custom problems are distinct from their LeetCode pattern companions.
+- Candidate: `Python/infosys_medium.py` and `Python/infosys_hard.py`; obtain original prompts and constraints before assigning post numbers or writing detailed descriptions.
+- Candidate: `Python/tcs1.py`, `tcs2.py`, `tcs11.py`, `tcs12.py`; inspect question-by-question.
 
 ## Builder’s Log — separate numbering
 
-| Builder’s Log # | Topic | Status |
+| # | Topic | Status |
 |---:|---|---|
-| **#1** | **TerMind — Bringing Natural Language to the Linux Terminal** | **Published** — user confirmed |
-| #2 | Linux journey: Windows → Fedora → Arch + Hyprland | Planned |
-| #3 | ArcHypr-w-Configs | Planned |
-| #4 | Termux as a portable development workspace | Planned |
-| #5 | Collaborative Editor | Planned |
-| #6 | NoteShare | Planned |
-| #7 | TerMind cloud / DevOps follow-up | Planned |
-| #8 | Cloud / DevOps learning log | Ongoing / planned |
+| 1 | TerMind — Bringing Natural Language to the Linux Terminal | **Published** |
+| 2 | Linux journey: Windows → Fedora → Arch + Hyprland | Planned |
+| 3 | ArcHypr-w-Configs | Planned |
+| 4 | Termux as a portable development workspace | Planned |
+| 5 | Collaborative Editor | Planned |
+| 6 | NoteShare | Planned |
+| 7 | TerMind cloud / DevOps follow-up | Planned |
+| 8 | Cloud / DevOps learning log | Ongoing / planned |
 
 ## Publication rules
 
-- #1–#22 DSA are Published based on the user’s latest explicit confirmation. Do not downgrade #16–#19 or #21–#22 to draft status.
-- Do not invent exact dates or LinkedIn URLs. Keep unknown fields blank until supplied.
+- #1–#24 are Published because the user confirmed them. #25 is not marked Published until the user says it is live.
+- Exact dates and LinkedIn URLs remain blank unless supplied.
+- LeetCode completion, Accepted status, caption readiness and LinkedIn publication are separate facts.
 - Builder’s Log numbering is independent from DSA Journey numbering.
-- LeetCode completion, local repository code, Accepted screenshot, caption readiness, and LinkedIn publication are separate facts.
-
----
-
-# DSA Journey #23 — LC4 LinkedIn draft
-
-**𝐃𝐒𝐀 𝐉𝐨𝐮𝐫𝐧𝐞𝐲 #𝟐𝟑 — 𝐌𝐞𝐝𝐢𝐚𝐧 𝐨𝐟 𝐓𝐰𝐨 𝐒𝐨𝐫𝐭𝐞𝐝 𝐀𝐫𝐫𝐚𝐲𝐬 (𝐋𝐞𝐞𝐭𝐂𝐨𝐝𝐞 𝟒)**
-
-Finding the median of two sorted arrays is a great reminder that there can be more than one way to solve a problem — and that choosing the right approach can make a huge difference in efficiency.
-
-I explored **two approaches** for this problem.
-
-**𝐀𝐩𝐩𝐫𝐨𝐚𝐜𝐡 𝟏: 𝐓𝐰𝐨-𝐏𝐨𝐢𝐧𝐭 𝐌𝐞𝐫𝐠𝐞**
-
-🔹 Use two pointers to traverse the sorted arrays in order.
-🔹 Process only the first `((m + n) // 2) + 1` elements needed to identify the middle value(s).
-🔹 Keep track of the previous and current elements to calculate the median without building a merged array.
-
-**Time Complexity:** O(m + n) in the worst case  
-**Auxiliary Space:** O(1)
-
-**𝐀𝐩𝐩𝐫𝐨𝐚𝐜𝐡 𝟐: 𝐁𝐢𝐧𝐚𝐫𝐲 𝐒𝐞𝐚𝐫𝐜𝐡 𝐨𝐧 𝐏𝐚𝐫𝐭𝐢𝐭𝐢𝐨𝐧𝐬**
-
-🔹 Always perform binary search on the smaller array.
-🔹 Choose partition positions in both arrays so the left side contains half of the combined elements.
-🔹 Check whether the elements on the left partitions are no greater than the elements on the right partitions.
-🔹 Once the correct partition is found, calculate the median using only the boundary values.
-
-**Time Complexity:** O(log(min(m, n)))  
-**Auxiliary Space:** O(1)
-
-**𝐓𝐡𝐞 𝐤𝐞𝐲 𝐨𝐛𝐬𝐞𝐫𝐯𝐚𝐭𝐢𝐨𝐧:** We don't need to merge the arrays. By finding the correct partition, we can identify the middle element(s) using binary search on the smaller array.
-
-**𝐊𝐞𝐲 𝐭𝐚𝐤𝐞𝐚𝐰𝐚𝐲:** Start with a straightforward solution, understand its cost, and then look for a way to reduce the search space. The optimized approach here turns a linear traversal into logarithmic time.
-
-#Python #DSA #LeetCode #BinarySearch #Arrays #ProblemSolving #LearningInPublic
-
-
-# DSA Journey #23 — LC4 LinkedIn draft
-
-**𝐃𝐒𝐀 𝐉𝐨𝐮𝐫𝐧𝐞𝐲 #𝟐𝟑 — 𝐌𝐞𝐝𝐢𝐚𝐧 𝐨𝐟 𝐓𝐰𝐨 𝐒𝐨𝐫𝐭𝐞𝐝 𝐀𝐫𝐫𝐚𝐲𝐬 (𝐋𝐞𝐞𝐭𝐂𝐨𝐝𝐞 𝟒)**
-
-Finding the median of two sorted arrays is a great reminder that there can be more than one way to solve a problem — and that choosing the right approach can make a huge difference in efficiency.
-
-I explored **two approaches** for this problem.
-
-**𝐀𝐩𝐩𝐫𝐨𝐚𝐜𝐡 𝟏: 𝐓𝐰𝐨-𝐏𝐨𝐢𝐧𝐭 𝐌𝐞𝐫𝐠𝐞**
-
-🔹 Use two pointers to traverse the sorted arrays in order.
-🔹 Process only the first `((m + n) // 2) + 1` elements needed to identify the middle value(s).
-🔹 Keep track of the previous and current elements to calculate the median without building a merged array.
-
-**Time Complexity:** O(m + n) in the worst case  
-**Auxiliary Space:** O(1)
-
-**𝐀𝐩𝐩𝐫𝐨𝐚𝐜𝐡 𝟐: 𝐁𝐢𝐧𝐚𝐫𝐲 𝐒𝐞𝐚𝐫𝐜𝐡 𝐨𝐧 𝐏𝐚𝐫𝐭𝐢𝐭𝐢𝐨𝐧𝐬**
-
-🔹 Always perform binary search on the smaller array.
-🔹 Choose partition positions in both arrays so the left side contains half of the combined elements.
-🔹 Check whether the elements on the left partitions are no greater than the elements on the right partitions.
-🔹 Once the correct partition is found, calculate the median using only the boundary values.
-
-**Time Complexity:** O(log(min(m, n)))  
-**Auxiliary Space:** O(1)
-
-**𝐓𝐡𝐞 𝐤𝐞𝐲 𝐨𝐛𝐬𝐞𝐫𝐯𝐚𝐭𝐢𝐨𝐧:** We don't need to merge the arrays. By finding the correct partition, we can identify the middle element(s) using binary search on the smaller array.
-
-**𝐊𝐞𝐲 𝐭𝐚𝐤𝐞𝐚𝐰𝐚𝐲:** Start with a straightforward solution, understand its cost, and then look for a way to reduce the search space. The optimized approach here turns a linear traversal into logarithmic time.
-
-#Python #DSA #LeetCode #BinarySearch #Arrays #ProblemSolving #LearningInPublic

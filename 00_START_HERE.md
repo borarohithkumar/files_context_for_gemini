@@ -1,31 +1,23 @@
 # START HERE — DSA MASTER TRACKER
 
-**Last reconciled:** 18 November 2026, updated after LC4 approach submission.
+**Last updated:** 19 November 2026.
 
-Only two files need routine maintenance:
+Maintain only two substantive files:
 
-1. `01_Master_Learning_and_Category_Tracker.md` — full 140-problem register, current-known vs historical/relearn status, pattern categories, curated roadmap, GitHub coding exercises, repository inventory, and next category sequence.
-2. `02_DSA_Post_and_Builder_Log.md` — DSA and Builder's Log publication statuses, next post sequence, and current LC4 post draft.
+1. `01_Master_Learning_and_Category_Tracker.md` — complete LeetCode register, pattern categories, known vs historical status, curated 47, GitHub coding exercises, repository inventory and learning sequence.
+2. `02_DSA_Post_and_Builder_Log.md` — DSA post publication ledger, Builder’s Log, future post sequence and current LC695 caption.
 
 ## Current state
 
-- LeetCode profile snapshot: 140/4115; 140 unique IDs supplied.
-- Current-known set: 69 (through LC125 in supplied order). Historical/relearn: 71.
-- DSA Journey #1–#22: Published (user confirmed). #23 LC4: draft ready; not yet confirmed posted.
-- Builder's Log #1 TerMind: Published.
-- LC4: user supplied both merge simulation and binary-search partition approaches.
+- Last LeetCode profile snapshot: 140/4115, before LC695. The updated live profile total has not been supplied.
+- 141 distinct problem IDs tracked: 69 original cutoff-known + 71 historical/relearn + one post-snapshot LC695 solve.
+- DSA Journey #1–#24: Published. DSA #25 LC695: draft ready.
+- Builder’s Log #1 TerMind: Published.
 
 ## Next sequence
 
-- **DSA #23:** LC4 — Median of Two Sorted Arrays.
-- **DSA #24 candidate:** LC200 — Number of Islands (current-known; request approach).
-- **DSA #25 candidate:** LC79 — Word Search (not solved; complete first).
-- Completion queue: LC79 first-time; then relearn LC133 and LC417; then linked-list refresh LC21, LC19, LC143, LC23.
+- **DSA #25:** LC695 — Max Area of Island (BFS; caption ready).
+- **DSA #26 candidate:** LC79 — Word Search (not solved; complete first).
+- Then refresh LC133 and LC417 before moving to linked-list relearning.
 
-## Evidence rules
-
-- Don't count historical 2025 solves as current mastery until refreshed.
-- Don't infer Accepted from a local source file or an approach alone.
-- Don't mark a post Published until the user confirms it.
-- Keep original assessment questions and project stories distinct from LeetCode problems.
-- Keep DSA Journey numbering separate from Builder's Log numbering.
+Use the master tracker as the learning source of truth and the post log for publication status. Do not infer Accepted or Published without evidence / user confirmation.
