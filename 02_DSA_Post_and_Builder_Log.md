@@ -1,89 +1,81 @@
-# DSA Journey & Builder's Log — Publication Ledger
+# 02 — DSA Post & Builder's Log
+**Last Updated:** November 26, 2026 | **Published Count:** `29` DSA Posts + `1` Builder's Log
 
-**Reconciled:** 24 November 2026. User confirms DSA #1–#26 Published and Builder's Log #1 Published. LC133 and LC417 implementations were supplied; under the user's rule, supplied implementations are Accepted.
+---
 
-## Publication ledger
+## 1. Ready-to-Publish Draft: DSA Journey #30
 
-| # | Problem/topic | Pattern | Acceptance / review status | LinkedIn status |
-|---:|---|---|---|---|
-| 1 | LC146 LRU Cache | Hash map + doubly linked list | Historical solution | Published |
-| 2 | LC56 Merge Intervals | Sorting + interval merge | Historical solution | Published |
-| 3 | Maximum Subjects Passed — custom question | Greedy + sorting + budget | Custom exercise featured | Published |
-| 4 | LC435 Non-overlapping Intervals | Greedy interval scheduling | Historical solution | Published |
-| 5 | LC57 Insert Interval | Interval insertion / merge | Historical solution | Published |
-| 6 | LC452 Minimum Number of Arrows to Burst Balloons | Greedy interval coverage | Historical solution | Published |
-| 7 | LC26 Remove Duplicates from Sorted Array | Slow/fast two pointers | Historical solution | Published |
-| 8 | LC88 Merge Sorted Array | Backward two pointers | Historical solution | Published |
-| 9 | LC53 Maximum Subarray | Kadane | Historical solution | Published |
-| 10 | LC121 Best Time to Buy and Sell Stock | Running minimum | Historical solution | Published |
-| 11 | LC1299 Replace Elements with Greatest Element on Right Side | Suffix maximum | Historical solution | Published |
-| 12 | LC238 Product of Array Except Self | Prefix / suffix products | Historical solution | Published |
-| 13 | LC242 Valid Anagram | Frequency count | Historical solution | Published |
-| 14 | LC49 Group Anagrams | Hashing / canonical grouping | Historical solution | Published |
-| 15 | LC560 Subarray Sum Equals K | Prefix sum + frequency map | Historical solution | Published |
-| 16 | LC35 Search Insert Position | Lower-bound binary search | Historical solution | Published |
-| 17 | LC33 Search in Rotated Sorted Array | Modified binary search | Historical solution | Published |
-| 18 | LC153 Find Minimum in Rotated Sorted Array | Modified binary search | Historical solution | Published |
-| 19 | LC875 Koko Eating Bananas | Binary search on answer | Historical solution | Published |
-| 20 | LC2187 + ICSL/HirePro original exercise | Binary search on feasible time; heap alternative in original | Custom + LeetCode companion | Published |
-| 21 | LC74 Search a 2D Matrix | Flattened binary search | Historical solution | Published |
-| 22 | LC1648 + Infosys Food Stamps sample | Heap + threshold binary search | Custom + LeetCode companion | Published |
-| 23 | LC4 Median of Two Sorted Arrays | Partial merge scan + binary-search partition | Historical solution | Published |
-| 24 | LC200 Number of Islands | Grid DFS / connected components | Historical solution | Published |
-| 25 | LC695 Max Area of Island | Grid BFS / component area | Historical solution | Published |
-| 26 | LC79 Word Search | Grid DFS + path-specific backtracking | Accepted under submitted-implementation rule | Published |
-| 27 | LC133 Clone Graph | Graph DFS + original-to-clone hashmap | Accepted; approach reviewed; caption ready | **Not confirmed published** |
-| 28 candidate | LC417 Pacific Atlantic Water Flow | Reverse multi-source reachability | Accepted; approach reviewed; caption not yet drafted | Not published / not confirmed |
+```text
+𝐃𝐒𝐀 𝐉𝐨𝐮𝐫𝐧𝐞𝐲 #𝟑𝟎 — 𝐂𝐨𝐧𝐭𝐚𝐢𝐧𝐞𝐫 𝐖𝐢𝐭𝐡 𝐌𝐨𝐬𝐭 𝐖𝐚𝐭𝐞𝐫 (𝐋𝐞𝐞𝐭𝐂𝐨𝐝𝐞 𝟏𝟏)
 
-## LC133 — DSA #27 review record
+Continuing our Two Pointers series, this problem shifts from searching for a target sum to maximizing an area bounded by two vertical lines.
 
-- User supplied recursive DFS clone implementation.
-- Correctly returns `None` for empty input.
-- Maintains an original-node → cloned-node map.
-- Creates and memoizes a clone before recursively cloning neighbours, preventing cycle recursion and duplicate clone nodes.
-- Complexity: O(V + E) time and O(V) auxiliary space.
-- LinkedIn caption is ready in the prior conversation; publication remains unconfirmed.
+A brute-force approach checks every pair of lines in O(n²) time, which doesn't scale for large inputs. By placing pointers at both ends, we can eliminate suboptimal choices in a single pass.
 
-## LC417 — next candidate review record
+𝐌𝐲 𝐀𝐩𝐩𝐫𝐨𝐚𝐜𝐡: 𝐂𝐎𝐍𝐕𝐄𝐑𝐆𝐈𝐍𝐆 𝐓𝐖𝐎 𝐏𝐎𝐈𝐍𝐓𝐄𝐑𝐒
 
-- User supplied recursive boundary-seeded DFS for Pacific and Atlantic oceans.
-- Accepted by the user's explicit rule: they only send submitted approaches after acceptance.
-- Core logic is correct: reverse search from each ocean boundary; move from current cell to neighbour only when `neighbour_height >= current_height`; intersect the two reachable sets.
-- Complexity: O(R×C) time and O(R×C) space.
-- Python implementation note: recursive depth may become large, so iterative stack-based DFS is safer for maximum grids.
-- Caption has not been drafted; LinkedIn publication has not been confirmed.
+🔹 𝐈𝐧𝐢𝐭𝐢𝐚𝐥𝐢𝐳𝐞 𝐩𝐨𝐢𝐧𝐭𝐞𝐫𝐬: Place one pointer at the start (left) and one at the end (right) to begin with the maximum possible width.
 
-## Original coding-question posts — separate from LeetCode
+🔹 𝐂𝐚𝐥𝐜𝐮𝐥𝐚𝐭𝐞 𝐚𝐫𝐞𝐚: At each step, compute width × min(height[left], height[right]) and update the maximum area found so far.
 
-| Post | Source exercise | Path | Pattern / relationship | Status |
-|---:|---|---|---|---|
-| #3 | Maximum Subjects Passed | `Termux_Android/Python/maxsubspass.py` | Greedy + sorting + budget | Published |
-| #20 | ICSL/HirePro desk-processing exercise | `Termux_Android/Python/icsl_1.py` | Related pattern companion LC2187; different statement | Published |
-| #22 | Infosys Food Stamps | `Termux_Android/Python/infosys_easy.py` | Related pattern companion LC1648; different statement | Published |
+🔹 𝐌𝐨𝐯𝐞 𝐭𝐡𝐞 𝐬𝐡𝐨𝐫𝐭𝐞𝐫 𝐥𝐢𝐧𝐞: Move the pointer pointing to the shorter vertical line inward.
 
-Pending original exercises and candidate classifications are documented in `01_Master_Learning_and_Category_Tracker.md`. The user confirms the original prompts for `infosys_medium.py` and `infosys_hard.py` are available. For other files without prompts, frame/find an equivalent statement from source logic when the problem enters a batch. Basic exercises are not standalone post candidates.
+𝐓𝐡𝐞 𝐊𝐞𝐲 𝐎𝐛𝐬𝐞𝐫𝐯𝐚𝐭𝐢𝐨𝐧: The water level is always limited by the shorter line. Moving the taller line inward can only decrease the width while the height remains capped by the shorter line—so only moving the shorter pointer gives a chance to find a taller boundary that compensates for the reduced width.
 
-## Builder's Log (separate series)
+𝐂𝐨𝐦𝐩𝐥𝐞𝐱𝐢𝐭𝐲 𝐀𝐧𝐚𝐥𝐲𝐬𝐢𝐬:
+• Time Complexity: O(n) — each element is visited at most once.
+• Auxiliary Space: O(1) — only pointer and max-area variables are used.
 
-| # | Topic | Status |
+#Python #DSA #LeetCode #TwoPointers #Greedy #ProblemSolving #Coding #LearningInPublic
+```
+
+---
+
+## 2. Complete DSA Journey Publication Ledger (`#1` to `#30`)
+
+| Post # | Problem / Exercise | Pattern Batch | Status |
+|---:|---|---|---|
+| 1 | LC 146 — LRU Cache | Design / Linked Lists | Published |
+| 2 | LC 56 — Merge Intervals | Greedy / Intervals | Published |
+| 3 | Termux `maxsubspass.py` — Maximum Subjects Passed | Greedy / Sorting | Published |
+| 4 | LC 435 — Non-overlapping Intervals | Greedy / Intervals | Published |
+| 5 | LC 452 — Minimum Number of Arrows to Burst Balloons | Greedy / Intervals | Published |
+| 6 | LC 57 — Insert Interval | Greedy / Intervals | Published |
+| 7 | LC 238 — Product of Array Except Self | Arrays / Prefix-Suffix | Published |
+| 8 | LC 128 — Longest Consecutive Sequence | Hashing / Frequency | Published |
+| 9 | LC 49 — Group Anagrams | Hashing / Frequency | Published |
+| 10 | LC 347 — Top K Frequent Elements | Hashing / Heap | Published |
+| 11 | LC 15 — 3Sum | Two Pointers | Published |
+| 12 | Arrays, Strings & Hashing Consolidation | Arrays / Strings | Published |
+| 13 | LC 3 — Longest Substring Without Repeating Characters | Sliding Window | Published |
+| 14 | LC 992 — Subarrays with K Different Integers | Sliding Window | Published |
+| 15 | LC 560 — Subarray Sum Equals K | Prefix Sum + HashMap | Published |
+| 16 | LC 704 & LC 35 — Binary Search Foundations | Binary Search | Published |
+| 17 | LC 33 — Search in Rotated Sorted Array *(Historical Refreshed)* | Binary Search | Published |
+| 18 | LC 153 — Find Minimum in Rotated Sorted Array | Binary Search | Published |
+| 19 | LC 875 — Koko Eating Bananas | Binary Search on Answer | Published |
+| 20 | LC 2187 + Termux `icsl_1.py` | Binary Search on Answer | Published |
+| 21 | LC 74 — Search a 2D Matrix | Binary Search | Published |
+| 22 | LC 1648 + Termux `infosys_easy.py` | Binary Search on Answer | Published |
+| 23 | LC 4 — Median of Two Sorted Arrays | Binary Search | Published |
+| 24 | LC 200 — Number of Islands | Grid / Graph Traversal | Published |
+| 25 | LC 695 — Max Area of Island | Grid / Graph Traversal | Published |
+| 26 | LC 79 — Word Search | Grid / Graph Traversal | Published |
+| 27 | LC 133 — Clone Graph | Grid / Graph Traversal | Published |
+| 28 | LC 417 — Pacific Atlantic Water Flow | Grid / Graph Traversal | Published |
+| 29 | LC 167 — Two Sum II *(Historical Refreshed)* | Two Pointers | Published |
+| **30** | **LC 11 — Container With Most Water** | **Two Pointers** | **Accepted & Draft Ready** |
+
+---
+
+## 3. Builder's Log Ledger (Independent Series)
+| Log # | Topic | Status |
 |---:|---|---|
-| 1 | TerMind — Bringing Natural Language to the Linux Terminal | Published |
-| 2 | Windows → Fedora → Arch + Hyprland journey | Planned |
-| 3 | ArcHypr-w-Configs | Planned |
-| 4 | Termux as a portable development workspace | Planned |
-| 5 | Collaborative Editor | Planned |
-| 6 | NoteShare | Planned |
-| 7 | TerMind cloud / DevOps follow-up | Planned |
-| 8 | Cloud / DevOps learning log | Ongoing / planned |
-
-## Rules to maintain
-
-- DSA #1–#26 Published per user confirmation.
-- A submitted LeetCode implementation from the user means Accepted; do not ask again.
-- Accepted, approach reviewed, caption ready and LinkedIn Published are separate statuses.
-- Do not mark a post Published without user confirmation.
-- Pattern-batch sequencing is the default, not random problem selection.
-- Do not repeat a previously published problem as a new standalone post.
-- Do not assign exact dates or LinkedIn URLs unless supplied.
-- Builder's Log numbering is independent of DSA Journey numbering.
-- The GitHub context repo remains read/copy-only; this ledger is maintained locally.
+| 1 | TerMind-CLI Architecture & Hybrid NLP-to-Bash Design | Published |
+| 2 | Linux Journey: Moving from Windows to Fedora to Arch Linux + Hyprland | Planned |
+| 3 | Configuring Hyprland & Wayland Productivity (`ArcHypr-w-Configs`) | Planned |
+| 4 | Building a Portable CLI Dev Environment on Android (`Termux_Android`) | Planned |
+| 5 | Containerizing a Real-Time Collaborative Text Editor (`Collaborative-Editor`) | Planned |
+| 6 | Full-Stack Academic Resource Sharing (`NoteShare`) | Planned |
+| 7 | Productionizing TerMind API on AWS EC2 with Terraform, Nginx, Certbot & Grafana | Planned |
+| 8 | Visualizing Algorithms & Intuition (`AlgoPulse`) | Planned |
