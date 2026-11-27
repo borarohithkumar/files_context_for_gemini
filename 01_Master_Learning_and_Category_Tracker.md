@@ -1,9 +1,9 @@
 # 01 — Master Learning & Category Tracker
-**Reconciled Date:** November 26, 2026 | **Total LeetCode Solved:** `146` (`77` Recent + `69` Historical)
+**Reconciled Date:** November 27, 2026 | **Total LeetCode Solved:** `147` (`78` Recent + `69` Historical)
 
 ---
 
-## 1. Pattern-by-Pattern LeetCode Inventory (116 DSA + 30 SQL)
+## 1. Pattern-by-Pattern LeetCode Inventory (117 DSA + 30 SQL)
 
 ### A. Grid & Graph Traversal (5 Problems)
 | ID | Problem | Diff | Recency | Sub-Pattern | Post Status |
@@ -14,14 +14,15 @@
 | 133 | Clone Graph | Med | Recent | Graph DFS + HashMap Cloning | Published (#27) |
 | 417 | Pacific Atlantic Water Flow | Med | Recent | Multi-Source Reverse Reachability DFS | Published (#28) |
 
-### B. Two Pointers & Array In-Place Manipulation (21 Problems)
+### B. Two Pointers & Array In-Place Manipulation (22 Problems)
 | ID | Problem | Diff | Recency | Sub-Pattern | Post Status |
 |---:|---|---|---|---|---|
 | 167 | Two Sum II - Input Array Is Sorted | Med | Historical (Refreshed) | Converging Sorted Pair Sum | Published (#29) |
-| 11 | Container With Most Water | Med | Recent | Converging Greedy Width/Height | **Draft Ready (#30)** |
+| 881 | Boats to Save People | Med | Recent (Nov 26) | Sort + Converging Greedy Pairing | **Draft Ready (#30)** |
+| 11 | Container With Most Water | Med | Recent | Converging Greedy Width/Height | **Draft Ready (#31)** |
+| 42 | Trapping Rain Water | Hard | Recent | Converging Prefix/Suffix Max | **Next in Batch (#32 Candidate)** |
 | 15 | 3Sum | Med | Recent | Sort + Converging Triplet Sum | Published (#11) / Batch Review |
-| 42 | Trapping Rain Water | Hard | Recent | Converging Prefix/Suffix Max | **Next in Batch (#31 Candidate)** |
-| 125 | Valid Palindrome | Easy | Recent | Converging String Palindrome | **Batch Candidate (#32)** |
+| 125 | Valid Palindrome | Easy | Recent | Converging String Palindrome | **Batch Candidate (#33)** |
 | 344 | Reverse String | Easy | Historical (Relearn) | Converging In-Place Reversal | Warm-up / Combine |
 | 977 | Squares of a Sorted Array | Easy | Historical (Relearn) | Converging Absolute Merge | **Batch Candidate** |
 | 26 | Remove Duplicates from Sorted Array | Easy | Recent | Read/Write In-Place Deduplication | **Batch Candidate** |

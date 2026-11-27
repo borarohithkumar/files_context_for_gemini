@@ -1,17 +1,18 @@
 # 00 — START HERE (Canonical DSA & Builder's Log Tracker)
-**Last Reconciled:** November 26, 2026  
+**Last Reconciled:** November 27, 2026  
 **Maintainer:** Gemini (Canonical Source of Truth)  
 **GitHub Context Repo:** `https://github.com/borarohithkumar/files_context_for_gemini.git` *(Read-only reference — updated files are generated in chat for manual push)*
 
 ---
 
 ## 1. Current Checkpoint at a Glance
-* **LeetCode Total Solved:** `146 / 4123` (116 Algorithmic DSA + 30 SQL)
-  * **Recent / Active Fluency Set:** `77` problems (all submissions up to `LC 125. Valid Palindrome`)
+* **LeetCode Total Solved:** `147 / 4123` (117 Algorithmic DSA + 30 SQL)
+  * **Recent / Active Fluency Set:** `78` problems (all submissions up to `LC 125. Valid Palindrome` + `LC 881. Boats to Save People` solved Nov 26, 2026)
   * **Historical / Relearn Backlog:** `69` problems (older 2025 solves; `LC 33` and `LC 167` already refreshed and published)
 * **DSA Journey LinkedIn Series:**
   * **Published:** `#1` through `#29` (`#28 LC 417 Pacific Atlantic Water Flow` and `#29 LC 167 Two Sum II` confirmed live)
-  * **Next Post (`#30`):** `LC 11. Container With Most Water` — **Accepted & Draft Ready**
+  * **Next Post (`#30`):** `LC 881. Boats to Save People` — **Accepted & Draft Ready**
+  * **Queued (`#31`):** `LC 11. Container With Most Water` — **Accepted & Draft Ready**
 * **Builder's Log Series (Separate Numbering):**
   * **Published:** `#1` — TerMind-CLI
   * **Next Planned:** `#2` — Linux Journey (Windows -> Fedora -> Arch Linux + Hyprland)
@@ -24,7 +25,7 @@
 3. **Historical Relearn Integration:** Older 2025 problems (`69` IDs) are never treated as automatically mastered, nor ignored—they are pulled into active batches when they reinforce or complete a pattern sequence (as done with `LC 33` and `LC 167`).
 4. **Basic Warm-Up Filter:** Trivial warm-ups (`LC 2235`, `LC 58`, `LC 66`, `LC 1342`, `LC 258`, `tcs1.py`, `tcs11.py`, etc.) stay in the solved register but are skipped as standalone LinkedIn posts in favor of stronger pattern problems.
 5. **Three Parallel Streams:**
-   * **Stream A:** LeetCode DSA Pattern Batches (`#1–#30+`)
+   * **Stream A:** LeetCode DSA Pattern Batches (`#1–#31+`)
    * **Stream B:** GitHub Local Coding & Assessment Exercises (`Termux_Android` — Infosys, ICSL/HirePro, TCS)
    * **Stream C:** Engineering Projects & Builder's Log (`#1–#8`)
 
@@ -34,7 +35,7 @@
 | File | Purpose |
 |---|---|
 | `00_START_HERE.md` | Quick status dashboard, locked-in rules, and session handoff guide |
-| `01_Master_Learning_and_Category_Tracker.md` | Complete 146-ID breakdown by pattern, local coding exercises, and GitHub projects |
-| `02_DSA_Post_and_Builder_Log.md` | Full LinkedIn publication ledger (`#1–#30`), ready caption for `#30`, and Builder's Log queue |
+| `01_Master_Learning_and_Category_Tracker.md` | Complete 147-ID breakdown by pattern, local coding exercises, and GitHub projects |
+| `02_DSA_Post_and_Builder_Log.md` | Full LinkedIn publication ledger (`#1–#31`), ready captions for `#30` & `#31`, and Builder's Log queue |
 | `03_Pattern_Batch_Roadmap.md` | Ordered batch-by-batch execution plan (current Two Pointers batch -> next stages) |
-| `04_LeetCode_146_Register.csv` | Machine-readable CSV register of all 146 solved IDs with recency, pattern, and post eligibility |
+| `04_LeetCode_147_Register.csv` | Machine-readable CSV register of all 147 solved IDs with recency, pattern, and post eligibility |

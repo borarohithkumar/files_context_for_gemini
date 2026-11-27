@@ -1,0 +1,148 @@
+ID,Title,Difficulty,Domain,Primary_Pattern,Sub_Pattern,Recency_Status,Post_Eligibility,Notes
+881,Boats to Save People,Med.,DSA,Two Pointers,Sort + Converging Greedy Pairing,Recent (<= LC 125 + Nov 26),Post Eligible,Accepted (Nov 26) & Draft Ready for DSA #30
+968,Binary Tree Cameras,Hard,DSA,Trees,Postorder Greedy State DP on Tree,Recent (<= LC 125),Post Eligible,Recent Active Set
+79,Word Search,Med.,DSA,Grid / Graph Traversal,Grid DFS + Backtracking,Recent (<= LC 125),Post Eligible,Published in DSA #1-#29
+155,Min Stack,Med.,DSA,Stack / Design,Auxiliary Min-Tracking Stack,Recent (<= LC 125),Post Eligible,Recent Active Set
+112,Path Sum,Easy,DSA,Trees,Root-to-Leaf Path Sum DFS,Recent (<= LC 125),Post Eligible,Recent Active Set
+417,Pacific Atlantic Water Flow,Med.,DSA,Grid / Graph Traversal,Multi-Source Reverse Reachability DFS,Recent (<= LC 125),Post Eligible,Published in DSA #1-#29
+133,Clone Graph,Med.,DSA,Grid / Graph Traversal,Graph DFS + HashMap Cloning,Recent (<= LC 125),Post Eligible,Published in DSA #1-#29
+338,Counting Bits,Easy,DSA,Bit Manipulation / DP,DP Offset / i & (i - 1) Bit Count,Recent (<= LC 125),Post Eligible,Recent Active Set
+695,Max Area of Island,Med.,DSA,Grid / Graph Traversal,Grid BFS - Component Area,Recent (<= LC 125),Post Eligible,Published in DSA #1-#29
+200,Number of Islands,Med.,DSA,Grid / Graph Traversal,Grid DFS - Connected Components,Recent (<= LC 125),Post Eligible,Published in DSA #1-#29
+4,Median of Two Sorted Arrays,Hard,DSA,Binary Search,Partition Binary Search on Two Sorted Arrays,Recent (<= LC 125),Post Eligible,Published in DSA #1-#29
+74,Search a 2D Matrix,Med.,DSA,Binary Search,2D Matrix Binary Search,Recent (<= LC 125),Post Eligible,Published in DSA #1-#29
+206,Reverse Linked List,Easy,DSA,Linked Lists,Iterative/Recursive Pointer Reversal,Recent (<= LC 125),Post Eligible,Recent Active Set
+992,Subarrays with K Different Integers,Hard,DSA,Sliding Window,AtMost(K) - AtMost(K-1) Subarray Trick,Recent (<= LC 125),Post Eligible,Published in DSA #1-#29
+2,Add Two Numbers,Med.,DSA,Linked Lists,Digit-by-Digit Carry Addition,Recent (<= LC 125),Post Eligible,Recent Active Set
+415,Add Strings,Easy,DSA,Strings / Math,Digit-by-Digit String Addition,Recent (<= LC 125),Post Eligible,Recent Active Set
+62,Unique Paths,Med.,DSA,Dynamic Programming,2D Grid Unique Paths,Recent (<= LC 125),Post Eligible,Recent Active Set
+1648,Sell Diminishing-Valued Colored Balls,Med.,DSA,Binary Search on Answer,Threshold Value + Arithmetic Series,Recent (<= LC 125),Post Eligible,Published in DSA #1-#29
+2187,Minimum Time to Complete Trips,Med.,DSA,Binary Search on Answer,Feasibility Search on Time,Recent (<= LC 125),Post Eligible,Published in DSA #1-#29
+875,Koko Eating Bananas,Med.,DSA,Binary Search on Answer,Feasibility Search on Rate,Recent (<= LC 125),Post Eligible,Published in DSA #1-#29
+81,Search in Rotated Sorted Array II,Med.,DSA,Binary Search,Rotated Sorted Array with Duplicates,Recent (<= LC 125),Post Eligible,Recent Active Set
+153,Find Minimum in Rotated Sorted Array,Med.,DSA,Binary Search,Rotated Sorted Array Minimum,Recent (<= LC 125),Post Eligible,Published in DSA #1-#29
+35,Search Insert Position,Easy,DSA,Binary Search,Lower Bound Binary Search,Recent (<= LC 125),Post Eligible,Published in DSA #1-#29
+560,Subarray Sum Equals K,Med.,DSA,Prefix Sum + HashMap,Running Prefix Sum Frequency,Recent (<= LC 125),Post Eligible,Published in DSA #1-#29
+121,Best Time to Buy and Sell Stock,Easy,DSA,Arrays / One-Pass Min-Max,Running Minimum Profit Tracking,Recent (<= LC 125),Post Eligible,Recent Active Set
+49,Group Anagrams,Med.,DSA,Hashing / Frequency,Canonical Signature Grouping,Recent (<= LC 125),Post Eligible,Published in DSA #1-#29
+242,Valid Anagram,Easy,DSA,Hashing / Frequency,Character Frequency Count,Recent (<= LC 125),Basic Warmup (Skip Standalone Post),Recent Active Set
+17,Letter Combinations of a Phone Number,Med.,DSA,Backtracking,Digit-to-Letter Combinatorial DFS,Recent (<= LC 125),Post Eligible,Recent Active Set
+53,Maximum Subarray,Med.,DSA,Arrays / Kadane,Kadane's Maximum Subarray,Recent (<= LC 125),Post Eligible,Recent Active Set
+88,Merge Sorted Array,Easy,DSA,Two Pointers,Reverse Three-Pointer In-Place Merge,Recent (<= LC 125),Post Eligible,Recent Active Set
+26,Remove Duplicates from Sorted Array,Easy,DSA,Two Pointers,Read/Write In-Place Deduplication,Recent (<= LC 125),Post Eligible,Recent Active Set
+70,Climbing Stairs,Easy,DSA,Dynamic Programming,1D Staircase Recurrence,Recent (<= LC 125),Post Eligible,Recent Active Set
+1299,Replace Elements with Greatest Element on Right Side,Easy,DSA,Arrays / Suffix Scan,Right-to-Left Running Maximum,Recent (<= LC 125),Basic Warmup (Skip Standalone Post),Recent Active Set
+860,Lemonade Change,Easy,DSA,Greedy,Bill Denomination Change Simulation,Recent (<= LC 125),Post Eligible,Recent Active Set
+452,Minimum Number of Arrows to Burst Balloons,Med.,DSA,Greedy / Intervals,Sort by End + Arrow Intersection,Recent (<= LC 125),Post Eligible,Published in DSA #1-#29
+198,House Robber,Med.,DSA,Dynamic Programming,1D Take/Skip House Robber,Recent (<= LC 125),Post Eligible,Recent Active Set
+57,Insert Interval,Med.,DSA,Greedy / Intervals,Three-Phase Interval Insertion,Recent (<= LC 125),Post Eligible,Published in DSA #1-#29
+2144,Minimum Cost of Buying Candies With Discount,Easy,DSA,Greedy,Reverse Sort Every-Third-Free,Recent (<= LC 125),Post Eligible,Recent Active Set
+435,Non-overlapping Intervals,Med.,DSA,Greedy / Intervals,Sort by End + Non-Overlapping Count,Recent (<= LC 125),Post Eligible,Published in DSA #1-#29
+2235,Add Two Integers,Easy,DSA,Math / Basic,Direct Integer Addition,Recent (<= LC 125),Basic Warmup (Skip Standalone Post),Recent Active Set
+1833,Maximum Ice Cream Bars,Med.,DSA,Greedy,Counting/Sort Budget Maximization,Recent (<= LC 125),Post Eligible,Recent Active Set
+455,Assign Cookies,Easy,DSA,Greedy,Two-Pointer Greedy Matching,Recent (<= LC 125),Post Eligible,Recent Active Set
+2244,Minimum Rounds to Complete All Tasks,Med.,DSA,Greedy,Frequency Count Mod-3 Grouping,Recent (<= LC 125),Post Eligible,Recent Active Set
+56,Merge Intervals,Med.,DSA,Greedy / Intervals,Sort by Start + Merge Overlapping,Recent (<= LC 125),Post Eligible,Published in DSA #1-#29
+139,Word Break,Med.,DSA,Dynamic Programming,1D Prefix Segmentation Word Break,Recent (<= LC 125),Post Eligible,Recent Active Set
+509,Fibonacci Number,Easy,DSA,Dynamic Programming,1D Fibonacci State Transition,Recent (<= LC 125),Post Eligible,Recent Active Set
+150,Evaluate Reverse Polish Notation,Med.,DSA,Stack,Postfix Expression Evaluation,Recent (<= LC 125),Post Eligible,Recent Active Set
+128,Longest Consecutive Sequence,Med.,DSA,Hashing / Frequency,Sequence Start Set Expansion,Recent (<= LC 125),Post Eligible,Published in DSA #1-#29
+485,Max Consecutive Ones,Easy,DSA,Arrays / Linear Scan,Streak Counter,Recent (<= LC 125),Basic Warmup (Skip Standalone Post),Recent Active Set
+3,Longest Substring Without Repeating Characters,Med.,DSA,Sliding Window,Variable Window + Last-Seen HashMap,Recent (<= LC 125),Post Eligible,Published in DSA #1-#29
+557,Reverse Words in a String III,Easy,DSA,Two Pointers / Strings,In-Place Word Reversal,Recent (<= LC 125),Post Eligible,Recent Active Set
+2149,Rearrange Array Elements by Sign,Med.,DSA,Arrays / Two Pointers,Sign-Parity Index Placement,Recent (<= LC 125),Post Eligible,Recent Active Set
+15,3Sum,Med.,DSA,Two Pointers,Sorting + Converging Triplet Sum,Recent (<= LC 125),Post Eligible,Published in DSA #1-#29
+146,LRU Cache,Med.,DSA,Design / Linked Lists,HashMap + Doubly Linked List LRU,Recent (<= LC 125),Post Eligible,Published in DSA #1-#29
+11,Container With Most Water,Med.,DSA,Two Pointers,Converging Greedy Container Width/Height,Recent (<= LC 125),Post Eligible,Accepted & Draft Ready for DSA #31
+31,Next Permutation,Med.,DSA,Arrays / Two Pointers,Pivot + Suffix Reversal Next Permutation,Recent (<= LC 125),Post Eligible,Recent Active Set
+704,Binary Search,Easy,DSA,Binary Search,Classic Binary Search,Recent (<= LC 125),Post Eligible,Published in DSA #1-#29
+20,Valid Parentheses,Easy,DSA,Stack,Bracket Matching Stack,Recent (<= LC 125),Post Eligible,Recent Active Set
+141,Linked List Cycle,Easy,DSA,Linked Lists,Floyd's Fast & Slow Cycle Detection,Recent (<= LC 125),Post Eligible,Recent Active Set
+347,Top K Frequent Elements,Med.,DSA,Hashing / Heap,Frequency Map + Top-K Selection,Recent (<= LC 125),Post Eligible,Published in DSA #1-#29
+66,Plus One,Easy,DSA,Math / Arrays,Carry Propagation Plus One,Recent (<= LC 125),Basic Warmup (Skip Standalone Post),Recent Active Set
+238,Product of Array Except Self,Med.,DSA,Arrays / Prefix-Suffix,Prefix and Suffix Product Pass,Recent (<= LC 125),Post Eligible,Published in DSA #1-#29
+51,N-Queens,Hard,DSA,Backtracking,N-Queens Constraint Pruning,Recent (<= LC 125),Post Eligible,Recent Active Set
+40,Combination Sum II,Med.,DSA,Backtracking,Bounded Sorted Combination Sum,Recent (<= LC 125),Post Eligible,Recent Active Set
+39,Combination Sum,Med.,DSA,Backtracking,Unbounded Target Combination Sum,Recent (<= LC 125),Post Eligible,Recent Active Set
+90,Subsets II,Med.,DSA,Backtracking,Sorted Subset Deduplication,Recent (<= LC 125),Post Eligible,Recent Active Set
+47,Permutations II,Med.,DSA,Backtracking,Unique Permutations with Frequency/Sort,Recent (<= LC 125),Post Eligible,Recent Active Set
+46,Permutations,Med.,DSA,Backtracking,Permutations Visited/Swap DFS,Recent (<= LC 125),Post Eligible,Recent Active Set
+78,Subsets,Med.,DSA,Backtracking,Power Set Include/Exclude DFS,Recent (<= LC 125),Post Eligible,Recent Active Set
+1823,Find the Winner of the Circular Game,Med.,DSA,Simulation / Recursion,Josephus Circular Elimination,Recent (<= LC 125),Post Eligible,Recent Active Set
+877,Stone Game,Med.,DSA,Dynamic Programming / Game Theory,Interval DP / Parity Advantage,Recent (<= LC 125),Post Eligible,Recent Active Set
+42,Trapping Rain Water,Hard,DSA,Two Pointers,Converging Prefix/Suffix Max Trapping,Recent (<= LC 125),Post Eligible,Recent Active Set
+283,Move Zeroes,Easy,DSA,Two Pointers,Read/Write Partition Zeros,Recent (<= LC 125),Post Eligible,Recent Active Set
+3936,Minimum Swaps to Move Zeros to End,Easy,DSA,Two Pointers,Adjacent Swaps / Partition Zeros,Recent (<= LC 125),Post Eligible,Recent Active Set
+151,Reverse Words in a String,Med.,DSA,Two Pointers / Strings,Word Tokenization & Reversal,Recent (<= LC 125),Post Eligible,Recent Active Set
+912,Sort an Array,Med.,DSA,Sorting,Merge Sort / Heap Sort / Quick Sort,Recent (<= LC 125),Post Eligible,Recent Active Set
+58,Length of Last Word,Easy,DSA,Strings,Reverse Scan Last Word Length,Recent (<= LC 125),Basic Warmup (Skip Standalone Post),Recent Active Set
+125,Valid Palindrome,Easy,DSA,Two Pointers,Converging String Palindrome,Recent (<= LC 125),Post Eligible,Recent Active Set
+1404,Number of Steps to Reduce a Number in Binary Representation to One,Med.,DSA,Math / Bit Manipulation,Binary String Carry Step Count,Historical (2025 — Relearn Needed),Post Eligible After Relearn,Bring back when pattern batch requires
+1342,Number of Steps to Reduce a Number to Zero,Easy,DSA,Math / Simulation,Halve/Decrement Step Count,Historical (2025 — Relearn Needed),Basic Warmup (Skip Standalone Post),Bring back when pattern batch requires
+3847,Find the Score Difference in a Game,Med.,DSA,Simulation,Turn-Based Game Score Simulation,Historical (2025 — Relearn Needed),Post Eligible After Relearn,Bring back when pattern batch requires
+258,Add Digits,Easy,DSA,Math / Number Theory,Digital Root Modulo 9,Historical (2025 — Relearn Needed),Basic Warmup (Skip Standalone Post),Bring back when pattern batch requires
+344,Reverse String,Easy,DSA,Two Pointers,Converging In-Place Array Reversal,Historical (2025 — Relearn Needed),Post Eligible After Relearn,Bring back when pattern batch requires
+189,Rotate Array,Med.,DSA,Arrays / Two Pointers,Three-Step Array Reversal,Historical (2025 — Relearn Needed),Post Eligible After Relearn,Bring back when pattern batch requires
+217,Contains Duplicate,Easy,DSA,Hashing / Frequency,Seen Set Duplicate Check,Historical (2025 — Relearn Needed),Basic Warmup (Skip Standalone Post),Bring back when pattern batch requires
+69,Sqrt(x),Easy,DSA,Binary Search,Integer Square Root Binary Search,Historical (2025 — Relearn Needed),Post Eligible After Relearn,Bring back when pattern batch requires
+167,Two Sum II - Input Array Is Sorted,Med.,DSA,Two Pointers,Converging Sorted Array Pair Sum,Historical (Refreshed & Published #29),Post Eligible After Relearn,Published as DSA #29
+977,Squares of a Sorted Array,Easy,DSA,Two Pointers,Converging Absolute-Value Merge,Historical (2025 — Relearn Needed),Post Eligible After Relearn,Bring back when pattern batch requires
+136,Single Number,Easy,DSA,Bit Manipulation,XOR Self-Cancellation,Historical (2025 — Relearn Needed),Basic Warmup (Skip Standalone Post),Bring back when pattern batch requires
+9,Palindrome Number,Easy,DSA,Math / Number Theory,Half-Number Reversal Palindrome,Historical (2025 — Relearn Needed),Basic Warmup (Skip Standalone Post),Bring back when pattern batch requires
+204,Count Primes,Med.,DSA,Math / Number Theory,Sieve of Eratosthenes,Historical (2025 — Relearn Needed),Post Eligible After Relearn,Bring back when pattern batch requires
+7,Reverse Integer,Med.,DSA,Math / Number Theory,Overflow-Safe Digit Reversal,Historical (2025 — Relearn Needed),Post Eligible After Relearn,Bring back when pattern batch requires
+13,Roman to Integer,Easy,DSA,Strings / Math,Roman Numeral Lookahead Mapping,Historical (2025 — Relearn Needed),Basic Warmup (Skip Standalone Post),Bring back when pattern batch requires
+169,Majority Element,Easy,DSA,Arrays / Boyer-Moore,Boyer-Moore Majority Vote,Historical (2025 — Relearn Needed),Post Eligible After Relearn,Bring back when pattern batch requires
+14,Longest Common Prefix,Easy,DSA,Strings,Vertical/Lexicographic Common Prefix,Historical (2025 — Relearn Needed),Basic Warmup (Skip Standalone Post),Bring back when pattern batch requires
+322,Coin Change,Med.,DSA,Dynamic Programming,Unbounded Knapsack Min Coins,Historical (2025 — Relearn Needed),Post Eligible After Relearn,Bring back when pattern batch requires
+191,Number of 1 Bits,Easy,DSA,Bit Manipulation,Brian Kernighan Set-Bit Count,Historical (2025 — Relearn Needed),Basic Warmup (Skip Standalone Post),Bring back when pattern batch requires
+190,Reverse Bits,Easy,DSA,Bit Manipulation,32-Bit Shift Reversal,Historical (2025 — Relearn Needed),Post Eligible After Relearn,Bring back when pattern batch requires
+572,Subtree of Another Tree,Easy,DSA,Trees,Subtree Structural Matching DFS,Historical (2025 — Relearn Needed),Post Eligible After Relearn,Bring back when pattern batch requires
+55,Jump Game,Med.,DSA,Greedy,Farthest Reachable Index,Historical (2025 — Relearn Needed),Post Eligible After Relearn,Bring back when pattern batch requires
+54,Spiral Matrix,Med.,DSA,Matrix / Simulation,Four-Boundary Spiral Traversal,Historical (2025 — Relearn Needed),Post Eligible After Relearn,Bring back when pattern batch requires
+48,Rotate Image,Med.,DSA,Matrix / Simulation,Transpose + Row Reverse Rotation,Historical (2025 — Relearn Needed),Post Eligible After Relearn,Bring back when pattern batch requires
+300,Longest Increasing Subsequence,Med.,DSA,Dynamic Programming,Longest Increasing Subsequence,Historical (2025 — Relearn Needed),Post Eligible After Relearn,Bring back when pattern batch requires
+424,Longest Repeating Character Replacement,Med.,DSA,Sliding Window,Variable Window + Max Frequency,Historical (2025 — Relearn Needed),Post Eligible After Relearn,Bring back when pattern batch requires
+297,Serialize and Deserialize Binary Tree,Hard,DSA,Trees,Preorder/BFS Serialization & Deserialization,Historical (2025 — Relearn Needed),Post Eligible After Relearn,Bring back when pattern batch requires
+295,Find Median from Data Stream,Hard,DSA,Heaps,Two Heaps Running Median,Historical (2025 — Relearn Needed),Post Eligible After Relearn,Bring back when pattern batch requires
+1731,The Number of Employees Which Report to Each Employee,Easy,SQL,SQL,Relational Querying / Aggregation / Joins,Historical (2025 — Relearn Needed),SQL Track,Bring back when pattern batch requires
+1045,Customers Who Bought All Products,Med.,SQL,SQL,Relational Querying / Aggregation / Joins,Historical (2025 — Relearn Needed),SQL Track,Bring back when pattern batch requires
+619,Biggest Single Number,Easy,SQL,SQL,Relational Querying / Aggregation / Joins,Historical (2025 — Relearn Needed),SQL Track,Bring back when pattern batch requires
+1729,Find Followers Count,Easy,SQL,SQL,Relational Querying / Aggregation / Joins,Historical (2025 — Relearn Needed),SQL Track,Bring back when pattern batch requires
+596,Classes With at Least 5 Students,Easy,SQL,SQL,Relational Querying / Aggregation / Joins,Historical (2025 — Relearn Needed),SQL Track,Bring back when pattern batch requires
+1070,Product Sales Analysis III,Med.,SQL,SQL,Relational Querying / Aggregation / Joins,Historical (2025 — Relearn Needed),SQL Track,Bring back when pattern batch requires
+33,Search in Rotated Sorted Array,Med.,DSA,Binary Search,Rotated Sorted Array Search,Historical (Refreshed & Published #17),Post Eligible After Relearn,Published as DSA #17
+1141,User Activity for the Past 30 Days I,Easy,SQL,SQL,Relational Querying / Aggregation / Joins,Historical (2025 — Relearn Needed),SQL Track,Bring back when pattern batch requires
+2356,Number of Unique Subjects Taught by Each Teacher,Easy,SQL,SQL,Relational Querying / Aggregation / Joins,Historical (2025 — Relearn Needed),SQL Track,Bring back when pattern batch requires
+550,Game Play Analysis IV,Med.,SQL,SQL,Relational Querying / Aggregation / Joins,Historical (2025 — Relearn Needed),SQL Track,Bring back when pattern batch requires
+152,Maximum Product Subarray,Med.,DSA,Dynamic Programming,Min/Max Tracking Product Subarray,Historical (2025 — Relearn Needed),Post Eligible After Relearn,Bring back when pattern batch requires
+1174,Immediate Food Delivery II,Med.,SQL,SQL,Relational Querying / Aggregation / Joins,Historical (2025 — Relearn Needed),SQL Track,Bring back when pattern batch requires
+23,Merge k Sorted Lists,Hard,DSA,Linked Lists / Heap,Min-Heap / Divide-and-Conquer K-Merge,Historical (2025 — Relearn Needed),Post Eligible After Relearn,Bring back when pattern batch requires
+1193,Monthly Transactions I,Med.,SQL,SQL,Relational Querying / Aggregation / Joins,Historical (2025 — Relearn Needed),SQL Track,Bring back when pattern batch requires
+1211,Queries Quality and Percentage,Easy,SQL,SQL,Relational Querying / Aggregation / Joins,Historical (2025 — Relearn Needed),SQL Track,Bring back when pattern batch requires
+21,Merge Two Sorted Lists,Easy,DSA,Linked Lists,Dummy Head Sorted Merge,Historical (2025 — Relearn Needed),Post Eligible After Relearn,Bring back when pattern batch requires
+1633,Percentage of Users Attended a Contest,Easy,SQL,SQL,Relational Querying / Aggregation / Joins,Historical (2025 — Relearn Needed),SQL Track,Bring back when pattern batch requires
+19,Remove Nth Node From End of List,Med.,DSA,Linked Lists,Fixed-Gap Two Pointers,Historical (2025 — Relearn Needed),Post Eligible After Relearn,Bring back when pattern batch requires
+1075,Project Employees I,Easy,SQL,SQL,Relational Querying / Aggregation / Joins,Historical (2025 — Relearn Needed),SQL Track,Bring back when pattern batch requires
+1251,Average Selling Price,Easy,SQL,SQL,Relational Querying / Aggregation / Joins,Historical (2025 — Relearn Needed),SQL Track,Bring back when pattern batch requires
+143,Reorder List,Med.,DSA,Linked Lists,Middle + Reverse + Interleave,Historical (2025 — Relearn Needed),Post Eligible After Relearn,Bring back when pattern batch requires
+620,Not Boring Movies,Easy,SQL,SQL,Relational Querying / Aggregation / Joins,Historical (2025 — Relearn Needed),SQL Track,Bring back when pattern batch requires
+1934,Confirmation Rate,Med.,SQL,SQL,Relational Querying / Aggregation / Joins,Historical (2025 — Relearn Needed),SQL Track,Bring back when pattern batch requires
+268,Missing Number,Easy,DSA,Math / Bit Manipulation,Gauss Sum / XOR Missing Number,Historical (2025 — Relearn Needed),Post Eligible After Relearn,Bring back when pattern batch requires
+3692,Majority Frequency Characters,Easy,DSA,Hashing / Frequency,Frequency-Bucket Character Grouping,Historical (2025 — Relearn Needed),Post Eligible After Relearn,Bring back when pattern batch requires
+570,Managers with at Least 5 Direct Reports,Med.,SQL,SQL,Relational Querying / Aggregation / Joins,Historical (2025 — Relearn Needed),SQL Track,Bring back when pattern batch requires
+1280,Students and Examinations,Easy,SQL,SQL,Relational Querying / Aggregation / Joins,Historical (2025 — Relearn Needed),SQL Track,Bring back when pattern batch requires
+577,Employee Bonus,Easy,SQL,SQL,Relational Querying / Aggregation / Joins,Historical (2025 — Relearn Needed),SQL Track,Bring back when pattern batch requires
+1661,Average Time of Process per Machine,Easy,SQL,SQL,Relational Querying / Aggregation / Joins,Historical (2025 — Relearn Needed),SQL Track,Bring back when pattern batch requires
+647,Palindromic Substrings,Med.,DSA,Strings / Palindromes,Expand Around Center Palindrome Count,Historical (2025 — Relearn Needed),Post Eligible After Relearn,Bring back when pattern batch requires
+197,Rising Temperature,Easy,SQL,SQL,Relational Querying / Aggregation / Joins,Historical (2025 — Relearn Needed),SQL Track,Bring back when pattern batch requires
+1581,Customer Who Visited but Did Not Make Any Transactions,Easy,SQL,SQL,Relational Querying / Aggregation / Joins,Historical (2025 — Relearn Needed),SQL Track,Bring back when pattern batch requires
+1068,Product Sales Analysis I,Easy,SQL,SQL,Relational Querying / Aggregation / Joins,Historical (2025 — Relearn Needed),SQL Track,Bring back when pattern batch requires
+1378,Replace Employee ID With The Unique Identifier,Easy,SQL,SQL,Relational Querying / Aggregation / Joins,Historical (2025 — Relearn Needed),SQL Track,Bring back when pattern batch requires
+1683,Invalid Tweets,Easy,SQL,SQL,Relational Querying / Aggregation / Joins,Historical (2025 — Relearn Needed),SQL Track,Bring back when pattern batch requires
+1148,Article Views I,Easy,SQL,SQL,Relational Querying / Aggregation / Joins,Historical (2025 — Relearn Needed),SQL Track,Bring back when pattern batch requires
+595,Big Countries,Easy,SQL,SQL,Relational Querying / Aggregation / Joins,Historical (2025 — Relearn Needed),SQL Track,Bring back when pattern batch requires
+584,Find Customer Referee,Easy,SQL,SQL,Relational Querying / Aggregation / Joins,Historical (2025 — Relearn Needed),SQL Track,Bring back when pattern batch requires
+1757,Recyclable and Low Fat Products,Easy,SQL,SQL,Relational Querying / Aggregation / Joins,Historical (2025 — Relearn Needed),SQL Track,Bring back when pattern batch requires
+1,Two Sum,Easy,DSA,Hashing / Frequency,Complement HashMap,Historical (2025 — Relearn Needed),Post Eligible After Relearn,Bring back when pattern batch requires
+5,Longest Palindromic Substring,Med.,DSA,Strings / Palindromes,Expand Around Center Longest Palindrome,Historical (2025 — Relearn Needed),Post Eligible After Relearn,Bring back when pattern batch requires

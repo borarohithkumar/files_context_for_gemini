@@ -1,14 +1,40 @@
 # 02 — DSA Post & Builder's Log
-**Last Updated:** November 26, 2026 | **Published Count:** `29` DSA Posts + `1` Builder's Log
+**Last Updated:** November 27, 2026 | **Published Count:** `29` DSA Posts + `1` Builder's Log
 
 ---
 
-## 1. Ready-to-Publish Draft: DSA Journey #30
+## 1. Ready-to-Publish Draft: DSA Journey #30 (Today)
 
 ```text
-𝐃𝐒𝐀 𝐉𝐨𝐮𝐫𝐧𝐞𝐲 #𝟑𝟎 — 𝐂𝐨𝐧𝐭𝐚𝐢𝐧𝐞𝐫 𝐖𝐢𝐭𝐡 𝐌𝐨𝐬𝐭 𝐖𝐚𝐭𝐞𝐫 (𝐋𝐞𝐞𝐭𝐂𝐨𝐝𝐞 𝟏𝟏)
+𝐃𝐒𝐀 𝐉𝐨𝐮𝐫𝐧𝐞𝐲 #𝟑𝟎 — 𝐁𝐨𝐚𝐭𝐬 𝐭𝐨 𝐒𝐚𝐯𝐞 𝐏𝐞𝐨𝐩𝐥𝐞 (𝐋𝐞𝐞𝐭𝐂𝐨𝐝𝐞 𝟖𝟖𝟏)
 
-Continuing our Two Pointers series, this problem shifts from searching for a target sum to maximizing an area bounded by two vertical lines.
+Continuing our Two Pointers series, this problem combines sorting with greedy pointer pairing to minimize the number of rescue boats needed when each boat can carry at most two people within a weight limit.
+
+𝐌𝐲 𝐀𝐩𝐩𝐫𝐨𝐚𝐜𝐡: 𝐒𝐎𝐑𝐓𝐈𝐍𝐆 + 𝐂𝐎𝐍𝐕𝐄𝐑𝐆𝐈𝐍𝐆 𝐓𝐖𝐎 𝐏𝐎𝐈𝐍𝐓𝐄𝐑𝐒
+
+🔹 𝐒𝐨𝐫𝐭 𝐛𝐲 𝐰𝐞𝐢𝐠𝐡𝐭: Sort the array in ascending order so the lightest and heaviest remaining people sit at opposite ends.
+
+🔹 𝐏𝐚𝐢𝐫 𝐞𝐱𝐭𝐫𝐞𝐦𝐞𝐬 𝐠𝐫𝐞𝐞𝐝𝐢𝐥𝐲: Use two pointers (left and right). Always place the heaviest remaining person (right) in a boat. If the lightest remaining person (left) can share that boat without exceeding the limit, move both pointers inward; otherwise, the heaviest person rides alone.
+
+🔹 𝐂𝐨𝐮𝐧𝐭 𝐞𝐯𝐞𝐫𝐲 𝐛𝐨𝐚𝐭: Increment the boat count on each step until all people are assigned (left > right).
+
+𝐓𝐡𝐞 𝐊𝐞𝐲 𝐎𝐛𝐬𝐞𝐫𝐯𝐚𝐭𝐢𝐨𝐧: If the heaviest person cannot pair with the lightest person, they cannot pair with anyone else—so sending them alone loses nothing. And if they can pair, pairing them with the lightest person saves slightly heavier candidates for future pairings.
+
+𝐂𝐨𝐦𝐩𝐥𝐞𝐱𝐢𝐭𝐲 𝐀𝐧𝐚𝐥𝐲𝐬𝐢𝐬:
+• Time Complexity: O(n log n) — dominated by sorting, followed by an O(n) single-pass two-pointer scan.
+• Auxiliary Space: O(1) — only pointer and counter variables are used alongside in-place sorting.
+
+#Python #DSA #LeetCode #TwoPointers #Greedy #ProblemSolving #Coding #LearningInPublic
+```
+
+---
+
+## 2. Ready-to-Publish Draft: DSA Journey #31 (Queued Next)
+
+```text
+𝐃𝐒𝐀 𝐉𝐨𝐮𝐫𝐧𝐞𝐲 #𝟑𝟏 — 𝐂𝐨𝐧𝐭𝐚𝐢𝐧𝐞𝐫 𝐖𝐢𝐭𝐡 𝐌𝐨𝐬𝐭 𝐖𝐚𝐭𝐞𝐫 (𝐋𝐞𝐞𝐭𝐂𝐨𝐝𝐞 𝟏𝟏)
+
+Continuing our Two Pointers series, this problem shifts from pairing weights under a limit to maximizing an area bounded by two vertical lines without sorting.
 
 A brute-force approach checks every pair of lines in O(n²) time, which doesn't scale for large inputs. By placing pointers at both ends, we can eliminate suboptimal choices in a single pass.
 
@@ -31,7 +57,7 @@ A brute-force approach checks every pair of lines in O(n²) time, which doesn't 
 
 ---
 
-## 2. Complete DSA Journey Publication Ledger (`#1` to `#30`)
+## 3. Complete DSA Journey Publication Ledger (`#1` to `#31`)
 
 | Post # | Problem / Exercise | Pattern Batch | Status |
 |---:|---|---|---|
@@ -64,11 +90,12 @@ A brute-force approach checks every pair of lines in O(n²) time, which doesn't 
 | 27 | LC 133 — Clone Graph | Grid / Graph Traversal | Published |
 | 28 | LC 417 — Pacific Atlantic Water Flow | Grid / Graph Traversal | Published |
 | 29 | LC 167 — Two Sum II *(Historical Refreshed)* | Two Pointers | Published |
-| **30** | **LC 11 — Container With Most Water** | **Two Pointers** | **Accepted & Draft Ready** |
+| **30** | **LC 881 — Boats to Save People** | **Two Pointers** | **Accepted & Draft Ready (Today)** |
+| **31** | **LC 11 — Container With Most Water** | **Two Pointers** | **Accepted & Draft Ready (Next)** |
 
 ---
 
-## 3. Builder's Log Ledger (Independent Series)
+## 4. Builder's Log Ledger (Independent Series)
 | Log # | Topic | Status |
 |---:|---|---|
 | 1 | TerMind-CLI Architecture & Hybrid NLP-to-Bash Design | Published |
